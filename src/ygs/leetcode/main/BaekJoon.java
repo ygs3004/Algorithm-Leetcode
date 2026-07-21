@@ -1,4 +1,4 @@
-package ygs.leetcode.test;
+package ygs.leetcode.main;
 
 import java.io.*;
 import java.lang.reflect.Constructor;

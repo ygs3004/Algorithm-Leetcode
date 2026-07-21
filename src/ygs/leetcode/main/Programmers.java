@@ -1,21 +1,15 @@
-package ygs.leetcode.test;
+package ygs.leetcode.main;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 
-public class Leetcode implements Problem<Object[]>{
+public class Programmers implements Problem<Object[]>{
 
     Object answer;
-    String methodName;
 
-    public Leetcode setAnswer(Object answer) {
+    public Problem setAnswer(Object answer) {
         this.answer = answer;
-        return this;
-    }
-
-    public Leetcode setSolutionMethodName(String methodName) {
-        this.methodName = methodName;
         return this;
     }
 
@@ -71,7 +65,7 @@ public class Leetcode implements Problem<Object[]>{
 
         Object result = null;
         for(Method method : methods){
-            if(method.getName().equals(methodName)){
+            if(method.getName().equals("solution")){
                 result = method.invoke(instance, parameter);
             }
         }
