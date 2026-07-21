@@ -7,7 +7,7 @@ public class TestMain {
     public static void main(String[] args) throws Exception {
         Leetcode leetcode = new Leetcode();
 
-        // leetcode.setSolutionMethodName("twoSum").setAnswer(new Solution()).test();
+        leetcode.setSolutionMethodName("twoSum").setAnswer(new Solution()).test();
     }
 
 }
