@@ -1,4 +1,4 @@
-package ygs.leetcode.main.problem.array_hashing.twoSum;
+package ygs.leetcode.main.problem.arrayHashing.twoSum;
 // https://leetcode.com/problems/two-sum/description/
 
 public class Solution {

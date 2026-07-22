@@ -1,4 +1,4 @@
-package ygs.leetcode.main.problem.array_hashing.twoSum;
+package ygs.leetcode.main.problem.arrayHashing.twoSum;
 
 import java.util.HashMap;
 
