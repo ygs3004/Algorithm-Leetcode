@@ -1,5 +1,4 @@
 package ygs.leetcode.main.problem.arrayHashing.twoSum;
-// https://leetcode.com/problems/two-sum/description/
 
 public class Solution {
     public int[] twoSum(int[] nums, int target){
