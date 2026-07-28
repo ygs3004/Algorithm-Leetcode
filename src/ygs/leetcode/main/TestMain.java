@@ -10,7 +10,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("twoSum").setAnswer(new ygs.leetcode.main.problem.arrayHashing.twoSum.Solution()).test();
         // leetcode.setSolutionMethodName("isPalindrome").setAnswer(new ygs.leetcode.main.problem.twoPointers.isPalindrome.Solution()).test();
         // leetcode.setSolutionMethodName("isValid").setAnswer(new ygs.leetcode.main.problem.stacks.validParentheses.Solution()).test();
-        leetcode.setSolutionMethodName("search").setAnswer(new ygs.leetcode.main.problem.binarySearch.binarySearch.Solution()).test();
+        // leetcode.setSolutionMethodName("search").setAnswer(new ygs.leetcode.main.problem.binarySearch.binarySearch.Solution()).test();
+        leetcode.setSolutionMethodName("maxProfit").setAnswer(new ygs.leetcode.main.problem.slidingWindow.bestTimeTOBuyAndSell.Solution()).test();
     }
 
 }
