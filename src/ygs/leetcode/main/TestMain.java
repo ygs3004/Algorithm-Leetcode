@@ -13,7 +13,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("search").setAnswer(new ygs.leetcode.main.problem.binarySearch.binarySearch.Solution()).test();
         // leetcode.setSolutionMethodName("maxProfit").setAnswer(new ygs.leetcode.main.problem.slidingWindow.bestTimeTOBuyAndSell.Solution()).test();
         // leetcode.setSolutionMethodName("findKthLargest").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.kthLargestElementinanArray.Solution()).test();
-        leetcode.setSolutionMethodName("numIslands").setAnswer(new ygs.leetcode.main.problem.graphs.numberOfIslands.Solution()).test();
+        // leetcode.setSolutionMethodName("numIslands").setAnswer(new ygs.leetcode.main.problem.graphs.numberOfIslands.Solution()).test();
+        leetcode.setSolutionMethodName("networkDelayTime").setAnswer(new ygs.leetcode.main.problem.advancedGraphs.networkDelayTime.Solution()).test();
     }
 
 }
