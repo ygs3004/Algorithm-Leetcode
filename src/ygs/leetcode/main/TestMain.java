@@ -13,7 +13,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("findKthLargest").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.kthLargestElementinanArray.Solution()).test();
         // leetcode.setSolutionMethodName("numIslands").setAnswer(new ygs.leetcode.main.problem.graphs.numberOfIslands.Solution()).test();
         // leetcode.setSolutionMethodName("networkDelayTime").setAnswer(new ygs.leetcode.main.problem.advancedGraphs.networkDelayTime.Solution()).test();
-        leetcode.setSolutionMethodName("climbStairs").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.climbingStairs.Solution()).test();
+        // leetcode.setSolutionMethodName("climbStairs").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.climbingStairs.Solution()).test();
+        leetcode.setSolutionMethodName("uniquePaths").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming2D.uniquePaths.Solution()).test();
     }
 
 }
