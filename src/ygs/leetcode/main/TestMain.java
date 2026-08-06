@@ -16,7 +16,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("climbStairs").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.climbingStairs.Solution()).test();
         // leetcode.setSolutionMethodName("uniquePaths").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming2D.uniquePaths.Solution()).test();
         // leetcode.setSolutionMethodName("canJump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame.Solution()).test();
-        leetcode.setSolutionMethodName("merge").setAnswer(new ygs.leetcode.main.problem.intervals.mergeIntervals.Solution()).test();
+        // leetcode.setSolutionMethodName("merge").setAnswer(new ygs.leetcode.main.problem.intervals.mergeIntervals.Solution()).test();
+        leetcode.setSolutionMethodName("singleNumber").setAnswer(new ygs.leetcode.main.problem.bitManipulation.singleNumber.Solution()).test();
     }
 
 }
