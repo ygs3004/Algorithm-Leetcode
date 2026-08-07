@@ -18,6 +18,7 @@ public class TestMain {
         // leetcode.setSolutionMethodName("canJump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame.Solution()).test();
         // leetcode.setSolutionMethodName("merge").setAnswer(new ygs.leetcode.main.problem.intervals.mergeIntervals.Solution()).test();
         // leetcode.setSolutionMethodName("singleNumber").setAnswer(new ygs.leetcode.main.problem.bitManipulation.singleNumber.Solution()).test();
+        leetcode.setSolutionMethodName("isAnagram").setAnswer(new ygs.leetcode.main.problem.arrayHashing.validAnagram.Solution()).test();
     }
 
 }
