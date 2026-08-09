@@ -19,7 +19,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("merge").setAnswer(new ygs.leetcode.main.problem.intervals.mergeIntervals.Solution()).test();
         // leetcode.setSolutionMethodName("singleNumber").setAnswer(new ygs.leetcode.main.problem.bitManipulation.singleNumber.Solution()).test();
         // leetcode.setSolutionMethodName("isAnagram").setAnswer(new ygs.leetcode.main.problem.arrayHashing.validAnagram.Solution()).test();
-        leetcode.setSolutionMethodName("threeSum").setAnswer(new ygs.leetcode.main.problem.twoPointers._3Sum.Solution()).test();
+        // leetcode.setSolutionMethodName("threeSum").setAnswer(new ygs.leetcode.main.problem.twoPointers._3Sum.Solution()).test();
+        leetcode.setSolutionMethodName("search").setAnswer(new ygs.leetcode.main.problem.binarySearch.searchInRotatedSortedArray.Solution()).test();
     }
 
 }
