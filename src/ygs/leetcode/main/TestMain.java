@@ -22,6 +22,7 @@ public class TestMain {
         // leetcode.setSolutionMethodName("threeSum").setAnswer(new ygs.leetcode.main.problem.twoPointers._3Sum.Solution()).test();
         // leetcode.setSolutionMethodName("search").setAnswer(new ygs.leetcode.main.problem.binarySearch.searchInRotatedSortedArray.Solution()).test();
         // leetcode.setSolutionMethodName("lengthOfLongestSubstring").setAnswer(new ygs.leetcode.main.problem.slidingWindow.longestSubstringWithoutRepeatingCharacters.Solution()).test();
+        leetcode.setSolutionMethodName("kClosest").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.kClosestPointstoOrigin.Solution()).test();
     }
 
 }
