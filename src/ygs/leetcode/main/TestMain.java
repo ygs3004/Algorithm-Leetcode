@@ -24,7 +24,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("lengthOfLongestSubstring").setAnswer(new ygs.leetcode.main.problem.slidingWindow.longestSubstringWithoutRepeatingCharacters.Solution()).test();
         // leetcode.setSolutionMethodName("kClosest").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.kClosestPointstoOrigin.Solution()).test();
         // leetcode.setSolutionMethodName("combinationSum").setAnswer(new ygs.leetcode.main.problem.backtracking.combinationSum.Solution()).test();
-        leetcode.setSolutionMethodName("minCostConnectPoints").setAnswer(new ygs.leetcode.main.problem.advancedGraphs.minCosttoConnectAllPoints.Solution()).test();
+        // leetcode.setSolutionMethodName("minCostConnectPoints").setAnswer(new ygs.leetcode.main.problem.advancedGraphs.minCosttoConnectAllPoints.Solution()).test();
+        leetcode.setSolutionMethodName("rob").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.houseRobber.Solution()).test();
     }
 
 }
