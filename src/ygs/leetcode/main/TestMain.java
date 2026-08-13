@@ -28,7 +28,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("rob").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.houseRobber.Solution()).test();
         // leetcode.setSolutionMethodName("longestCommonSubsequence").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming2D.longestCommonSubsequence.Solution()).test();
         // leetcode.setSolutionMethodName("jump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame2.Solution()).test();
-        leetcode.setSolutionMethodName("insert").setAnswer(new ygs.leetcode.main.problem.intervals.insertInterval.Solution()).test();
+        // leetcode.setSolutionMethodName("insert").setAnswer(new ygs.leetcode.main.problem.intervals.insertInterval.Solution()).test();
+        leetcode.setSolutionMethodName("hammingWeight").setAnswer(new ygs.leetcode.main.problem.bitManipulation.numberof1Bits.Solution()).test();
     }
 
 }
