@@ -27,7 +27,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("minCostConnectPoints").setAnswer(new ygs.leetcode.main.problem.advancedGraphs.minCosttoConnectAllPoints.Solution()).test();
         // leetcode.setSolutionMethodName("rob").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming1D.houseRobber.Solution()).test();
         // leetcode.setSolutionMethodName("longestCommonSubsequence").setAnswer(new ygs.leetcode.main.problem.dynamicProgramming2D.longestCommonSubsequence.Solution()).test();
-        leetcode.setSolutionMethodName("jump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame2.Solution()).test();
+        // leetcode.setSolutionMethodName("jump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame2.Solution()).test();
+        leetcode.setSolutionMethodName("insert").setAnswer(new ygs.leetcode.main.problem.intervals.insertInterval.Solution()).test();
     }
 
 }

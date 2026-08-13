@@ -1,6 +1,6 @@
 package ygs.leetcode.main.problem.greedy.jumpGame2;
 
-class Solution {
+public class Solution {
     public int jump(int[] nums) {
         return stepsToJumpFrom(nums, 0);
     }
