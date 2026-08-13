@@ -30,7 +30,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("jump").setAnswer(new ygs.leetcode.main.problem.greedy.jumpGame2.Solution()).test();
         // leetcode.setSolutionMethodName("insert").setAnswer(new ygs.leetcode.main.problem.intervals.insertInterval.Solution()).test();
         // leetcode.setSolutionMethodName("hammingWeight").setAnswer(new ygs.leetcode.main.problem.bitManipulation.numberof1Bits.Solution()).test();
-        leetcode.setSolutionMethodName("spiralOrder").setAnswer(new ygs.leetcode.main.problem.mathGeometry.spiralMatrix.Solution()).test();
+        // leetcode.setSolutionMethodName("spiralOrder").setAnswer(new ygs.leetcode.main.problem.mathGeometry.spiralMatrix.Solution()).test();
+        leetcode.setSolutionMethodName("containsDuplicate").setAnswer(new ygs.leetcode.main.problem.arrayHashing.containsDuplicate.Solution()).test();
     }
 
 }
