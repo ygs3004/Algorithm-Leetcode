@@ -33,7 +33,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("spiralOrder").setAnswer(new ygs.leetcode.main.problem.mathGeometry.spiralMatrix.Solution()).test();
         // leetcode.setSolutionMethodName("containsDuplicate").setAnswer(new ygs.leetcode.main.problem.arrayHashing.containsDuplicate.Solution()).test();
         // leetcode.setSolutionMethodName("maxArea").setAnswer(new ygs.leetcode.main.problem.twoPointers.containerWithMostWater.Solution()).test();
-        leetcode.setSolutionMethodName("dailyTemperatures").setAnswer(new ygs.leetcode.main.problem.stacks.dailyTemperatures.Solution()).test();
+        // leetcode.setSolutionMethodName("dailyTemperatures").setAnswer(new ygs.leetcode.main.problem.stacks.dailyTemperatures.Solution()).test();
+        leetcode.setSolutionMethodName("findMin").setAnswer(new ygs.leetcode.main.problem.binarySearch.findMinimuminRotatedSortedArray.Solution()).test();
     }
 
 }
