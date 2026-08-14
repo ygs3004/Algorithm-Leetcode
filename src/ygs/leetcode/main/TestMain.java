@@ -32,7 +32,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("hammingWeight").setAnswer(new ygs.leetcode.main.problem.bitManipulation.numberof1Bits.Solution()).test();
         // leetcode.setSolutionMethodName("spiralOrder").setAnswer(new ygs.leetcode.main.problem.mathGeometry.spiralMatrix.Solution()).test();
         // leetcode.setSolutionMethodName("containsDuplicate").setAnswer(new ygs.leetcode.main.problem.arrayHashing.containsDuplicate.Solution()).test();
-        leetcode.setSolutionMethodName("maxArea").setAnswer(new ygs.leetcode.main.problem.twoPointers.containerWithMostWater.Solution()).test();
+        // leetcode.setSolutionMethodName("maxArea").setAnswer(new ygs.leetcode.main.problem.twoPointers.containerWithMostWater.Solution()).test();
+        leetcode.setSolutionMethodName("dailyTemperatures").setAnswer(new ygs.leetcode.main.problem.stacks.dailyTemperatures.Solution()).test();
     }
 
 }
