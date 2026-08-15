@@ -35,7 +35,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("maxArea").setAnswer(new ygs.leetcode.main.problem.twoPointers.containerWithMostWater.Solution()).test();
         // leetcode.setSolutionMethodName("dailyTemperatures").setAnswer(new ygs.leetcode.main.problem.stacks.dailyTemperatures.Solution()).test();
         // leetcode.setSolutionMethodName("findMin").setAnswer(new ygs.leetcode.main.problem.binarySearch.findMinimuminRotatedSortedArray.Solution()).test();
-        leetcode.setSolutionMethodName("minWindow").setAnswer(new ygs.leetcode.main.problem.slidingWindow.minimumWindowSubstring.Solution()).test();
+        // leetcode.setSolutionMethodName("minWindow").setAnswer(new ygs.leetcode.main.problem.slidingWindow.minimumWindowSubstring.Solution()).test();
+        leetcode.setSolutionMethodName("leastInterval").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.taskScheduler.Solution()).test();
     }
 
 }
