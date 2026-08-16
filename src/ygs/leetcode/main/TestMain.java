@@ -36,7 +36,8 @@ public class TestMain {
         // leetcode.setSolutionMethodName("dailyTemperatures").setAnswer(new ygs.leetcode.main.problem.stacks.dailyTemperatures.Solution()).test();
         // leetcode.setSolutionMethodName("findMin").setAnswer(new ygs.leetcode.main.problem.binarySearch.findMinimuminRotatedSortedArray.Solution()).test();
         // leetcode.setSolutionMethodName("minWindow").setAnswer(new ygs.leetcode.main.problem.slidingWindow.minimumWindowSubstring.Solution()).test();
-        leetcode.setSolutionMethodName("leastInterval").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.taskScheduler.Solution()).test();
+        // leetcode.setSolutionMethodName("leastInterval").setAnswer(new ygs.leetcode.main.problem.heapPriorityQueue.taskScheduler.Solution()).test();
+        // leetcode.setSolutionMethodName("permute").setAnswer(new ygs.leetcode.main.problem.backtracking.permutaions.Solution()).test();
     }
 
 }
