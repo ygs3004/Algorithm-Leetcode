@@ -11,14 +11,18 @@ public class Solution {
         List<List<Integer>> answer = new ArrayList<>();
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
+                // pacific,북쪽
                 if(i == 0){
                     bfs(i, j, heights, pacific);
+                // pacific,서쪽
                 }else if(j == 0){
                     bfs(i, j, heights, pacific);
                 }
 
+                // atlantic,동쪽
                 if(i == m - 1){
                     bfs(i, j, heights, atlantic);
+                // atlantic,남쪽
                 }else if(j == n - 1){
                     bfs(i, j, heights, atlantic);
                 }
