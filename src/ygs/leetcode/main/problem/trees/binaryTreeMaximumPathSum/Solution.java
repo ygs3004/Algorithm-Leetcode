@@ -19,7 +19,7 @@ import ygs.leetcode.main.problem.trees.TreeNode;
  */
 class Solution {
 
-    static int answer;
+    int answer;
 
     public int maxPathSum(TreeNode root) {
         this.answer = Integer.MIN_VALUE;
