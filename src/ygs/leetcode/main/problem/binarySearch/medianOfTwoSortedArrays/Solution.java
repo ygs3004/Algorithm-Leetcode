@@ -3,50 +3,40 @@ package ygs.leetcode.main.problem.binarySearch.medianOfTwoSortedArrays;
 import java.util.*;
 
 public class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int[] answer = new int[nums.length - k + 1];
 
-        Median med = new Median();
-
-        for(int num: nums1){
-            med.addNum(num);
-        }
-
-        for(int num: nums2){
-            med.addNum(num);
-        }
-
-        return med.calcMedian();
-    }
-
-    private static class Median{
-
-        PriorityQueue<Integer> left = new PriorityQueue<>((a,b) -> Integer.compare(b,a));
-        PriorityQueue<Integer> right = new PriorityQueue<>();
-
-        private void addNum(int n){
-            if(left.isEmpty()){
-                left.add(n);
-            }else if(left.peek() > n){
-                left.add(n);
-            }else{
-                right.add(n);
-            }
-
-            while(right.size() > left.size()){
-                left.add(right.poll());
-            }
-
-            while(left.size() > right.size() + 1 ){
-                right.add(left.poll());
+        int max = 0;
+        int maxIdx = 0;
+        for(int i = 0; i < k; i++){
+            if(nums[i] > max){
+                max = nums[i];
+                maxIdx = i;
             }
         }
 
-        private double calcMedian(){
-            if((left.size() + right.size()) % 2 == 1){
-                return left.peek();
-            }else{
-                return (double)(left.peek() + right.peek()) / 2;
+        int ansIdx = 0;
+        answer[ansIdx++] = max;
+
+        for(int r = k; r < nums.length; r++){
+            int num = nums[r];
+            if(nums[r] >= max){
+                max = nums[r];
+                maxIdx = r;
+            }else if(r - k >= maxIdx){
+                maxIdx = r - k + 1;
+                max = nums[maxIdx];
+                for(int i = maxIdx; i <= r; i++){
+                    if(nums[i] >= max){
+                        max = nums[i];
+                        maxIdx = i;
+                    }
+                }
             }
+
+            answer[ansIdx++] = max;
         }
+
+        return answer;
     }
 }
