@@ -14,11 +14,9 @@ public class Solution {
                     head.next[c - 'a'] = new Trie();
                 }
                 head = head.next[c - 'a'];
-
-                if(i == word.length() - 1){
-                    head.isLast = true;
-                }
             }
+
+            head.isLast = true;
         }
 
         String[] sentenceArr = sentence.split(" ");
